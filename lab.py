@@ -24,3 +24,8 @@ val_y = math.sqrt(8)
 res = new_expr.subs({x: val_x, y: val_y})
 print(res)
 
+#5
+a = np.array([[-7, -5, -5], [0, 3, 0], [10, 5, 8]], int)
+vals, vecs = np.linalg.eig(a)
+print(vals)
+print(vecs)
